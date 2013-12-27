@@ -1,9 +1,9 @@
 {
-  "name": "backbone.marionette",
+  "name": "marionette",
   "description": "Make your Backbone.js apps dance!",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "homepage": "https://github.com/marionettejs/backbone.marionette",
-  "main": "lib/core/amd/backbone.marionette.js",
+  "main": "lib/backbone.marionette.js",
   "keywords": [
     "backbone",
     "plugin",
@@ -38,11 +38,6 @@
     "url": "https://github.com/marionettejs/backbone.marionette.git"
   },
   "github": "https://github.com/marionettejs/backbone.marionette",
-  "dependencies": {
-    "backbone.babysitter": "~0.0.6",
-    "backbone.wreqr": "~0.2.0",
-    "backbone": "~1.1.0"
-  },
   "devDependencies": {
     "grunt": "~0.4.0",
     "grunt-contrib-jasmine": "~0.4.2",
@@ -68,7 +63,7 @@
       "backbone.babysitter": ">=0.0.6",
       "backbone.wreqr": ">=0.2.0"
     },
-    "main": "lib/core/amd/backbone.marionette.js",
+    "main": "lib/backbone.marionette.js",
     "include": [
       "lib/core/amd/backbone.marionette.js",
       "readme.md"
@@ -89,5 +84,13 @@
       "web": "http://joegornick.com",
       "twitter": "https://twitter.com/jgornick"
     }
-  ]
+  ],
+  "cortex":{
+      "dependencies": {
+          "backbone": "~1.1.0",
+          "underscore":"~1.5.0"
+      },
+      "scripts":{
+      }
+  }
 }
