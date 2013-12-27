@@ -192,6 +192,6 @@ module.exports = function(grunt) {
   // grunt.registerTask('server', ['jasmine:marionette:build', 'connect:server', 'watch:server']);
 
   // // Default task.
-  // grunt.registerTask('default', ['jshint', 'jasmine:coverage', 'preprocess', 'concat', 'uglify']);
+   grunt.registerTask('default', [/*'jshint', 'jasmine:coverage', 'preprocess', 'concat', 'uglify'*/]);
 
 };
