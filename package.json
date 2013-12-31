@@ -27,8 +27,6 @@
     "email": "derickbailey@gmail.com",
     "web": "http://derickbailey.lostechies.com"
   },
-  "devDependencies": {
-  },
   "cortex":{
       "dependencies": {
           "backbone": "~1.1.0",
