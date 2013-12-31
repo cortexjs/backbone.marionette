@@ -35,6 +35,9 @@
         "scripts":{
         }
     },
+    "dependencies":{
+        "grunt":"~0.4.1"
+    },
     "repository": {
         "type": "git",
         "url": "git://code.dianpingoa.com/f2e/marionette.git"
